@@ -1,0 +1,56 @@
+# ===========================
+# 1. PYTHON & ENV
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===========================
+# 2. JUPYTER NOTEBOOKS
+# ===========================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ===========================
+# 3. DATA
+# ===========================
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+!data/.gitkeep
+
+!data/metadata.txt
+
+# ===========================
+# 4. SYSTEM FILES & IDEs
+# ===========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.spyderproject
+.ropeproject
+
+# ===========================
+# 5. CREDENTIALS & SECRETS 
+# ===========================
+.env
+.kaggle
+gcloud_keys.json
+client_secrets.json
+
+# ===========================
+# 6. OUTPUTS 
+# ===========================
+figures/temp/
+models/*.pkl
+models/*.h5
